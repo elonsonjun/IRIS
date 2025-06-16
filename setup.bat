@@ -1,0 +1,9 @@
+@echo off
+echo Starting setup...
+cd /d C:\dev\IRIS
+echo Installing packages...
+"C:\Program Files\nodejs\npm.cmd" install -D tailwindcss postcss autoprefixer tailwindcss-animate @radix-ui/react-alert-dialog
+echo Creating Tailwind config...
+"C:\Program Files\nodejs\npx.cmd" tailwindcss init -p
+echo Done!
+pause 

@@ -1,0 +1,2 @@
+@echo off
+cmd /k "cd /d C:\dev\IRIS && "C:\Program Files\nodejs\npm.cmd" install -D tailwindcss postcss autoprefixer tailwindcss-animate @radix-ui/react-alert-dialog && "C:\Program Files\nodejs\npx.cmd" tailwindcss init -p" 
